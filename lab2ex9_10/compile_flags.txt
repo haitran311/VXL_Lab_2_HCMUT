@@ -1,0 +1,13 @@
+-xc
+-std=gnu11
+--target=arm-none-eabi
+-mcpu=cortex-m3
+-mthumb
+-DDEBUG
+-DUSE_HAL_DRIVER
+-DSTM32F103x6
+-Ic:\Users\Lenovo\STM32CubeIDE\workspace_1.7.0\lab2ex9_10\Core\Inc
+-Ic:\Users\Lenovo\STM32CubeIDE\workspace_1.7.0\lab2ex9_10\Drivers\STM32F1xx_HAL_Driver\Inc
+-Ic:\Users\Lenovo\STM32CubeIDE\workspace_1.7.0\lab2ex9_10\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+-Ic:\Users\Lenovo\STM32CubeIDE\workspace_1.7.0\lab2ex9_10\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+-Ic:\Users\Lenovo\STM32CubeIDE\workspace_1.7.0\lab2ex9_10\Drivers\CMSIS\Include
